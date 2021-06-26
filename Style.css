@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    font-weight: 300px;
+}
+img {
+    max-width: 100%;
+}
+/*Header*/
+.container-top {
+    background-color: black;
+    color: white;
+}
+.Header-Top{
+    max-width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;   
+}
+.container {
+    position: relative;
+    left: 320px;
+    top: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container h2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container h3 {
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.container a {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container-Bot {
+    background-color: orange;
+    color: white;
+}
+.Header-Bot {
+        max-width: 1200px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header a {
+    padding: 10px;
+}
+header p  {
+    margin-left: 100px;
+}
+a {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+h1 {
+    padding: 0.5em;
+}
+/*Main*/
+main {
+    background-color: rgba(105, 44, 44, 0.315);
+}
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.subt  {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.patita{
+    width: 67px;
+    height: 71px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Main-Top {
+    background-image: url(img/bowl.png);
+    background-size: cover;
+    height: 409px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.Main-Mid {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color:#FBFAF6 ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 265px;
+    height: 268.86px;
+}
+.Main-Bot {
+    margin-top: 100px;
+}
+.Main-Bot p {
+    background-color:#3C2313;
+    padding: 15px;
+    font-size: 10px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-right: 300px;
+}
+
+.form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Botones {
+    margin-bottom: 50px;
+}
+    .Resetear {
+    border-radius: 15px;
+    background-color: #8A8787;
+    color: white;
+    padding: 10px 30px;
+}
+
+.Enviar {
+    border-radius: 15px;
+    background-color: #F0A83E;
+    color: white;
+    padding: 10px 30px;
+}
+/*Footer*/
+
+.container-FT {
+    background-color: #F0A83E;
+    color: white;
+}
+.container-FB {
+    background-color: black;
+}
+.Foot-Top {
+    display: flex;
+    max-width: 1200px;
+    justify-content:space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.Foot-Top div {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}  
+.Foot-Top p {
+    padding: 15px 200px 15px 5px;
+    background-color: white;
+    color: #A0A0A0;
+    border-radius: 15px;
+    margin: 10px 10px;
+    font-size: 10px;
+}
+
+.Foot-Top a {
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 10px;
+
+}
+.Foot-Bot {
+    display: flex;
+    max-width: 1200px;
+    justify-content:space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    color: white;
+}  
+.Foot-Bot h3 {
+    text-align: center;
+}
+.orange {
+    color: #F0A83E;
+}
+.grey {
+    color: #8A8787;
+}
+.white {
+    color: white;
+}
+.Footcard {
+    display: flex;
+    margin: 20px;
+}
+.Footcard h4 {
+    margin: 5px 10px;
+}
+.Footcard p {
+    margin: 5px 10px;
+    font-size: 10px;
+}
+.derechos {
+    text-align: center;
+}
